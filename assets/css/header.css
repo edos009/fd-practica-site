@@ -1,5 +1,11 @@
+.header{
+  margin-bottom: 26px;
+}
+
 .header-top {
   height: 70px;
+
+  border-radius: 5px;
 
   display: flex;
   align-items: center;

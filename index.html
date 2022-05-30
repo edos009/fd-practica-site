@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/question.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -32,6 +34,53 @@
           </div>
         </div>
       </header>
+
+      <section class="question">
+        <div class="container">
+          <div class="row question__inner">
+            <h2 class="question__title col-10">Задайте вопрос юристу онлайн</h2>
+            <p class="question__text col-12">
+              Компания специализируется на оказании широкого спектра услуг как
+              для корпоративных клиентов так и для частных лиц. Профессионализм
+              и ответственность ключевые преимущества нашей компании.
+            </p>
+            <img
+              class="question__img col-11"
+              src="./assets/images/girl.png"
+              alt="Girl"
+            />
+            <form class="question__form col-12">
+              <input
+                class="input question__form__input"
+                type="text"
+                name="question"
+                placeholder="Введите Ваш вопрос..."
+              />
+              <textarea
+                class="textarea question__form__textarea"
+                name="question"
+                placeholder="Введите Ваш вопрос..."
+              ></textarea>
+              <div class="question__form__actions__box">
+                <input
+                  id="check"
+                  class="checkbox question__form__checkbox"
+                  type="checkbox"
+                  name="check"
+                  required
+                />
+                <label class="question__form__checkbox__text" for="check">
+                  Нажимая кнопку “Отправить” вы соглашаетесь с политикой
+                  конфидециальности
+                </label>
+                <button class="btn question__form__btn property-text" type="submit">
+                  Отправить вопрос
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>

@@ -1,0 +1,147 @@
+.question {
+  margin-bottom: 40px;
+}
+
+.question__title {
+  margin-bottom: 34px;
+
+  color: var(--light-green-color);
+
+  font-family: "Trajan Pro 3";
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.22em;
+}
+
+.question__text {
+  font-size: 13px;
+  line-height: 1.23em;
+}
+
+.question__img {
+  margin-top: -50px;
+  margin-bottom: 33px;
+}
+
+.input,
+.textarea {
+  display: block;
+  width: 100%;
+
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+
+  background-color: var(--white-color);
+  color: var(--dark-grey-color);
+
+  outline: none;
+
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17em;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--light-grey-color);
+}
+
+.question__form__input {
+  margin-bottom: 11px;
+  margin-right: 0;
+}
+
+.question__form__textarea {
+  min-height: 90px;
+
+  margin-bottom: 19px;
+
+  resize: none;
+}
+
+.question__form__actions__box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.question__form__checkbox__text {
+  /* min-height: 132px; */
+  flex-basis: 147px;
+
+  padding-left: 20px;
+
+  position: relative;
+
+  color: #a3a3a3;
+
+  cursor: pointer;
+
+  font-size: 8px;
+  line-height: 1.25em;
+}
+
+.question__form__checkbox__text::after{
+  content: '';
+  position: absolute;
+
+  width: 12px;
+  height: 12px;
+
+  border: 1px solid #65C466;
+  border-radius: 3px;
+
+  background: #FFFDF9;
+
+  top: 10px;
+  left: 0;
+}
+
+.question__form__checkbox__text::before{
+  display: none;
+  content: '';
+  position: absolute;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 2px;
+
+  background: #65C466;
+
+  top: 12px;
+  left: 2px;
+
+  z-index: 5;
+}
+
+.question__form__checkbox:checked + .question__form__checkbox__text::before{
+  display: block;
+}
+
+.question__form__checkbox{
+  display: none;
+}
+
+
+.question__form__btn{
+  display: block;
+
+  padding: 7px 17px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 2px 8.px rgba(0, 0, 0, 0.25);
+
+  color: var(--white-color);
+  background-color: var(--light-green-color);
+
+  cursor: pointer;
+
+  font-style: italic;
+  font-weight: 200;
+  font-size: 7px;
+  line-height: 1.25em;
+
+}
