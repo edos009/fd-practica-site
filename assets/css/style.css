@@ -29,3 +29,22 @@ a {
 
   text-decoration: none;
 }
+
+:root {
+  --light-green-color: #65c466;
+  --dark-blue-color: #243246;
+  --white-color: #ffffff;
+  --light-grey-color: #c2c2c2;
+  --medium-light1-grey-color: #a3a3a3;
+  --medium-light2-grey-color: #a9a9a9;
+  --medium-grey-color: #9d9d9d;
+  --medium-dark-grey-color: #959aa6;
+  --dark-grey-color: #414141;
+  --grey-color: #696969;
+
+  color: var(--dark-grey-color);
+
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
