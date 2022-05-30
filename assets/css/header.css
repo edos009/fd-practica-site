@@ -1,0 +1,28 @@
+.header-top {
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: var(--light-green-color);
+}
+
+.header__logo {
+  /* margin-left: 14px; */
+  display: block;
+  padding-left: 14px;
+
+  color: var(--white-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.28em;
+
+  text-transform: capitalize;
+}
+
+.header__burger-img {
+  display: block;
+  margin-right: 17px;
+  margin-left: auto;
+}
