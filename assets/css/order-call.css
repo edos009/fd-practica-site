@@ -1,0 +1,56 @@
+.order-call{
+  margin-bottom: 35px;
+}
+
+.order-call__inner {
+  height: 231px;
+
+  background-image: url(./../images/order-call-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 4px;
+
+  position: relative;
+}
+
+.order-call__inner::after{
+  content: url(./../images/figura1.png);
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
+
+.order-call-box{
+  padding: 13px;
+  border-radius: 7px;
+  margin: 78px auto 19px;
+
+  background-color: var(--white-color);
+
+  z-index: 10;
+}
+
+.order-call__title{
+  margin-bottom: 13px;
+
+  font-size: 18px;
+  line-height: 1.22em;
+  text-transform: uppercase;
+}
+
+.order-call__text{
+  margin-bottom: 8px;
+
+  font-size: 11px;
+  line-height: 1.27em;
+}
+
+.order-call__btn{
+  padding: 6px 43px;
+  margin: 0 auto;
+
+  font-size: 10px;
+  line-height: 1.3em;
+}
