@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/question.css" />
     <link rel="stylesheet" href="./assets/css/order-call.css" />
+    <link rel="stylesheet" href="./assets/css/services.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -47,11 +48,29 @@
               для корпоративных клиентов так и для частных лиц. Профессионализм
               и ответственность ключевые преимущества нашей компании.
             </p>
-            <img
-              class="question__img col-11"
-              src="./assets/images/girl.png"
-              alt="Girl"
-            />
+            <picture>
+              <source
+                media="(min-width:1920px)"
+                srcset="./assets/images/girl-1920.png"
+              />
+              <source
+                media="(min-width:1336px)"
+                srcset="./assets/images/girl-1336.png"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="./assets/images/girl-1024.png"
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="./assets/images/girl-768.png"
+              />
+              <img
+                class="question__img col-11"
+                src="./assets/images/girl-320.png"
+                alt="Girl"
+              />
+            </picture>
             <form class="question__form col-12">
               <input
                 class="input question__form__input"
@@ -92,11 +111,84 @@
         <div class="container">
           <div class="row order-call__inner">
             <div class="order-call-box col-10">
-              <h2 class="title order-call__title col-8"><span>ЮРИСТЫ</span> ДЛЯ БИЗНЕСА</h2>
+              <h2 class="title order-call__title col-8">
+                <span>ЮРИСТЫ</span> ДЛЯ БИЗНЕСА
+              </h2>
               <p class="order-call__text col-9">
                 Сопровождение юридических лиц во всех областях права
               </p>
-              <button class="btn order-call__btn col-10">Заказать звонок</button>
+              <button class="btn order-call__btn col-10">
+                Заказать звонок
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <div class="row services-inner">
+            <h2 class="title services__title col-10">Предоставляемые услуги</h2>
+            <p class="services__text col-12">
+              Компания специализируется на оказании широкого спектра услуг как
+              для корпоративных клиентов так и для частных лиц. Профессионализм
+              и ответственность ключевые преимущества нашей компании.
+            </p>
+            <div class="services__slider">
+              <a class="services__arrowl-link col-6" href="#">
+                <img class="services__arrowl-img" src="./assets/icons/services-arrow-left.svg" alt="Arrow left" />
+              </a>
+              <div class="services__slider__box">
+                <article class="services__slider__item services__slider1">
+                  <h3 class="services__slider__item__title">
+                    Строительство зданий
+                  </h3>
+                  <p class="services__slider__item__text">
+                    Осуществляется от имени и в интересах лиц, участвующих в
+                    деле: сторон, третьих лиц, заявителей и иных
+                    заинтересованных лиц.
+                  </p>
+                  <a class="services__slider__item__link" href="#">
+                    Подробнее
+                  </a>
+                </article>
+                <article class="services__slider__item services__slider2 col-8">
+                  <h3 class="services__slider__item__title col-11">
+                    Ремонт оборудования
+                  </h3>
+                  <p class="services__slider__item__text col-11">
+                    Частичная или полная передача работ по поддержке,
+                    обслуживанию и модернизации ИТ-инфраструктуры в руки
+                    компаний.
+                  </p>
+                  <a class="services__slider__item__link col-5" href="#">
+                    Подробнее
+                  </a>
+                </article>
+                <article class="services__slider__item services__slider3">
+                  <h3 class="services__slider__item__title">
+                    Курсы английского
+                  </h3>
+                  <p class="services__slider__item__text">
+                    Проверка финансово-экономической деятельности организации,
+                    проводимая аудитором.
+                  </p>
+                  <a class="services__slider__item__link" href="#">
+                    Подробнее
+                  </a>
+                </article>
+              </div>
+              <div class="services__slider__dots col-8">
+                <a class="services__slider__dot" href="#"></a>
+                <a class="services__slider__dot" href="#"></a>
+                <a class="services__slider__dot" href="#"></a>
+                <a class="services__slider__dot" href="#"></a>
+                <a class="services__slider__dot" href="#"></a>
+                <a class="services__slider__dot" href="#"></a>
+              </div>
+              <a class="services__arrowr-link col-6" href="#">
+                <img class="services__arrowr-img" src="./assets/icons/services-arrow-right.svg" alt="Arrow right" />
+              </a>
             </div>
           </div>
         </div>
