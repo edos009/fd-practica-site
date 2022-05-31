@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./assets/css/order-call.css" />
     <link rel="stylesheet" href="./assets/css/services.css" />
     <link rel="stylesheet" href="./assets/css/benefits.css" />
+    <link rel="stylesheet" href="./assets/css/help.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -209,7 +210,7 @@
             <h2 class="title benefits__title col-12">Наши преимущества</h2>
             <p class="benefits__text col-12">Команда опытных юристов</p>
             <div class="benefits__items col-11">
-              <div class="benefits__item">
+              <article class="benefits__item">
                 <h4 class="benefits__item__title benefits-icon-1">
                   Низкие цены и широкий ассортимент
                 </h4>
@@ -218,8 +219,8 @@
                   рост и сфера нашей активности позволяет выполнять важные
                   задания по разработке дальнейших направлений развития.
                 </p>
-              </div>
-              <div class="benefits__item">
+              </article>
+              <article class="benefits__item">
                 <h4 class="benefits__item__title benefits-icon-2">
                   Весь товар сертифицирован
                 </h4>
@@ -228,8 +229,8 @@
                   оценить значение новых предложений. Значимость этих проблем
                   настолько очевидна, что реализация намеченных планов.
                 </p>
-              </div>
-              <div class="benefits__item">
+              </article>
+              <article class="benefits__item">
                 <h4 class="benefits__item__title benefits-icon-3">
                   Широкая сеть представительств
                 </h4>
@@ -238,8 +239,8 @@
                   подготовки и реализации позиций, занимаемых участниками в
                   отношении поставленных задач.
                 </p>
-              </div>
-              <div class="benefits__item">
+              </article>
+              <article class="benefits__item">
                 <h4 class="benefits__item__title benefits-icon-4">
                   Оперативная доставка и выгрузка товара
                 </h4>
@@ -248,8 +249,63 @@
                   информационно-пропагандистское обеспечение нашей деятельности
                   способствует подготовки и реализации позиций.
                 </p>
-              </div>
+              </article>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="help">
+        <div class="container">
+          <div class="row help__inner">
+            <h2 class="title help__title">
+              Юридическая помощь <span>начинается с консультации</span>
+            </h2>
+            <ul class="help__list col-12">
+              <li class="help__item col-12">
+                Заполните форму заявки , что бы получить первую бесплатную
+                консультацию по Вашей ситуации
+              </li>
+              <li class="help__item col-10">
+                Наш менеджер свяжется с вами в ближайшее время
+              </li>
+            </ul>
+            <form class="help__form col-7">
+              <label class="help__form__label input-person">Введите Ваше имя </label>
+              <input class="help__form__input" type="text" />
+              <label class="help__form__label input-phone">Введите номер телефона </label>
+              <input class="help__form__input" type="text" />
+              <button class="btn help__from__btn">Получить консультацию</button>
+              <p class="help__from__text col-10">
+                Нажимая на кнопку, Вы даете согласие на обработку
+                <a class="help__from__text-link" href="#"
+                  >персональных данных</a
+                >
+              </p>
+            </form>
+            <picture class="help__box__img col-5">
+              <source
+                media="(min-width:1920px)"
+                srcset="./assets/images/phone-1920.png"
+              />
+              <source
+                media="(min-width:1336px)"
+                srcset="./assets/images/phone-1336.png"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="./assets/images/phone-1024.png"
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="./assets/images/phone-768.png"
+              />
+              <img
+                class="help__img"
+                src="./assets/images/phone-320.png"
+                alt="Girl"
+              />
+            </picture>
           </div>
         </div>
       </section>
