@@ -25,7 +25,7 @@
 .order-call-box{
   padding: 13px;
   border-radius: 7px;
-  margin: 78px auto 19px;
+  margin: 59px auto 19px;
 
   background-color: var(--white-color);
 
@@ -35,8 +35,6 @@
 .order-call__title{
   margin-bottom: 13px;
 
-  font-size: 18px;
-  line-height: 1.22em;
   text-transform: uppercase;
 }
 

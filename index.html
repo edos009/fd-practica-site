@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./assets/css/services.css" />
     <link rel="stylesheet" href="./assets/css/benefits.css" />
     <link rel="stylesheet" href="./assets/css/help.css" />
+    <link rel="stylesheet" href="./assets/css/reviews.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -42,9 +43,9 @@
       <section class="question">
         <div class="container">
           <div class="row question__inner">
-            <h2 class="title question__title col-10">
+            <h1 class="title question__title col-10">
               <span>Задайте вопрос</span>юристу онлайн
-            </h2>
+            </h1>
             <p class="question__text col-12">
               Компания специализируется на оказании широкого спектра услуг как
               для корпоративных клиентов так и для частных лиц. Профессионализм
@@ -113,7 +114,7 @@
         <div class="container">
           <div class="row order-call__inner">
             <div class="order-call-box col-10">
-              <h2 class="title order-call__title col-8">
+              <h2 class="title order-call__title col-10">
                 <span>ЮРИСТЫ</span> ДЛЯ БИЗНЕСА
               </h2>
               <p class="order-call__text col-9">
@@ -137,9 +138,9 @@
               и ответственность ключевые преимущества нашей компании.
             </p>
             <div class="services__slider">
-              <a class="services__arrowl-link col-6" href="#">
+              <a class="arrowl-link services__arrowl-link col-6" href="#">
                 <img
-                  class="services__arrowl-img"
+                  class="arrowl-img services__arrowl-img"
                   src="./assets/icons/services-arrow-left.svg"
                   alt="Arrow left"
                 />
@@ -184,17 +185,17 @@
                   </a>
                 </article>
               </div>
-              <div class="services__slider__dots col-8">
-                <a class="services__slider__dot" href="#"></a>
-                <a class="services__slider__dot" href="#"></a>
-                <a class="services__slider__dot" href="#"></a>
-                <a class="services__slider__dot" href="#"></a>
-                <a class="services__slider__dot" href="#"></a>
-                <a class="services__slider__dot" href="#"></a>
+              <div class="slider__dots services__slider__dots col-8">
+                <a class="slider__dot services__slider__dot" href="#"></a>
+                <a class="slider__dot services__slider__dot" href="#"></a>
+                <a class="slider__dot services__slider__dot" href="#"></a>
+                <a class="slider__dot services__slider__dot" href="#"></a>
+                <a class="slider__dot services__slider__dot" href="#"></a>
+                <a class="slider__dot services__slider__dot" href="#"></a>
               </div>
-              <a class="services__arrowr-link col-6" href="#">
+              <a class="arrowr-link services__arrowr-link col-6" href="#">
                 <img
-                  class="services__arrowr-img"
+                  class="arrowr-img services__arrowr-img"
                   src="./assets/icons/services-arrow-right.svg"
                   alt="Arrow right"
                 />
@@ -271,9 +272,13 @@
               </li>
             </ul>
             <form class="help__form col-7">
-              <label class="help__form__label input-person">Введите Ваше имя </label>
+              <label class="help__form__label input-person"
+                >Введите Ваше имя
+              </label>
               <input class="help__form__input" type="text" />
-              <label class="help__form__label input-phone">Введите номер телефона </label>
+              <label class="help__form__label input-phone"
+                >Введите номер телефона
+              </label>
               <input class="help__form__input" type="text" />
               <button class="btn help__from__btn">Получить консультацию</button>
               <p class="help__from__text col-10">
@@ -303,9 +308,173 @@
               <img
                 class="help__img"
                 src="./assets/images/phone-320.png"
-                alt="Girl"
+                alt="Phone"
               />
             </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="container">
+          <div class="row reviews__inner">
+            <h2 class="title reviews__title col-5">Отзывы</h2>
+            <p class="reviews__text col-11">
+              За долгое время работы, мы собрали десятки отзывов, которые
+              помогут свормировать мнение о нашей работе 
+            </p>
+            <div class="reviews__slider col-12">
+              <article class="reviews__item reviews__item-1">
+                <div class="reviews__stars">
+                  <a class="reviews__stars__link" href="#">
+                    <img
+                      class="reviews__stars__img"
+                      src="./assets/icons/star.svg"
+                      alt="Star"
+                    />
+                  </a>
+                  <a class="reviews__stars__link" href="#">
+                    <img
+                      class="reviews__stars__img"
+                      src="./assets/icons/star.svg"
+                      alt="Star"
+                    />
+                  </a>
+                  <a class="reviews__stars__link" href="#">
+                    <img
+                      class="reviews__stars__img"
+                      src="./assets/icons/star.svg"
+                      alt="Star"
+                    />
+                  </a>
+                  <a class="reviews__stars__link" href="#">
+                    <img
+                      class="reviews__stars__img"
+                      src="./assets/icons/star.svg"
+                      alt="Star"
+                    />
+                  </a>
+                  <a class="reviews__stars__link" href="#">
+                    <img
+                      class="reviews__stars__img"
+                      src="./assets/icons/star.svg"
+                      alt="Star"
+                    />
+                  </a>
+                </div>
+                <p class="reviews__item__text">
+                  В результате действий команды юристов удалось взыскать
+                  задолженость в размере 7 045 515 гривен.  
+                </p>
+                <div class="reviews__user">
+                  <picture class="reviews__box__img">
+                    <source
+                      media="(min-width:1920px)"
+                      srcset="./assets/images/user-1920.png"
+                    />
+                    <source
+                      media="(min-width:1336px)"
+                      srcset="./assets/images/user-1336.png"
+                    />
+                    <img
+                      class="reviews__img"
+                      src="./assets/images/user-320.png"
+                      alt="User"
+                    />
+                  </picture>
+                  <div class="reviews__user__info">
+                    <p class="reviews__user__fio">Алексей.К.В</p>
+                    <p class="reviews__user__company">ООО “Энергон”</p>
+                  </div>
+                </div>
+              </article>
+              <article class="reviews__item reviews__item-2">
+                <div class="reviews__stars">
+                  <a class="reviews__stars__link" href="#">
+                    <img
+                      class="reviews__stars__img"
+                      src="./assets/icons/star.svg"
+                      alt="Star"
+                    />
+                  </a>
+                  <a class="reviews__stars__link" href="#">
+                    <img
+                      class="reviews__stars__img"
+                      src="./assets/icons/star.svg"
+                      alt="Star"
+                    />
+                  </a>
+                  <a class="reviews__stars__link" href="#">
+                    <img
+                      class="reviews__stars__img"
+                      src="./assets/icons/star.svg"
+                      alt="Star"
+                    />
+                  </a>
+                  <a class="reviews__stars__link" href="#">
+                    <img
+                      class="reviews__stars__img"
+                      src="./assets/icons/star.svg"
+                      alt="Star"
+                    />
+                  </a>
+                  <a class="reviews__stars__link" href="#">
+                    <img
+                      class="reviews__stars__img"
+                      src="./assets/icons/star.svg"
+                      alt="Star"
+                    />
+                  </a>
+                </div>
+                <p class="reviews__item__text">
+                  В результате действий команды юристов удалось взыскать
+                  задолженость в размере 7 045 515 гривен.  
+                </p>
+                <div class="reviews__user">
+                  <picture class="reviews__box__img">
+                    <source
+                      media="(min-width:1920px)"
+                      srcset="./assets/images/user-1920.png"
+                    />
+                    <source
+                      media="(min-width:1336px)"
+                      srcset="./assets/images/user-1336.png"
+                    />
+                    <img
+                      class="reviews__img"
+                      src="./assets/images/user-320.png"
+                      alt="User"
+                    />
+                  </picture>
+                  <div class="reviews__user__info">
+                    <p class="reviews__user__fio">Алексей.К.В</p>
+                    <p class="reviews__user__company">ООО “Энергон”</p>
+                  </div>
+                </div>
+              </article>
+              <div class="slider__dots reviews__slider__dots col-8">
+                <a class="slider__dot reviews__slider__dot" href="#"></a>
+                <a class="slider__dot reviews__slider__dot" href="#"></a>
+                <a class="slider__dot reviews__slider__dot" href="#"></a>
+                <a class="slider__dot reviews__slider__dot" href="#"></a>
+                <a class="slider__dot reviews__slider__dot" href="#"></a>
+                <a class="slider__dot reviews__slider__dot" href="#"></a>
+              </div>
+              <a class="arrowl-link reviews__arrowl-link col-6" href="#">
+                <img
+                  class="arrowl-img reviews__arrowl-img"
+                  src="./assets/icons/services-arrow-left.svg"
+                  alt="Arrow left"
+                />
+              </a>
+              <a class="arrowr-link reviews__arrowr-link col-6" href="#">
+                <img
+                  class="arrowr-img reviews__arrowr-img"
+                  src="./assets/icons/services-arrow-right.svg"
+                  alt="Arrow right"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>

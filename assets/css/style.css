@@ -64,8 +64,8 @@ a {
 
   font-family: "Trajan Pro 3";
   font-weight: 400;
-  font-size: 23px;
-  line-height: 1.22em;
+  font-size: 22px;
+  line-height: 1.2em;
 }
 
 .input,
@@ -113,4 +113,42 @@ a {
 .question__title span,
 .order-call__title span {
   display: block;
+}
+
+.slider__dots {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  margin: 31px auto 27px;
+}
+
+.slider__dot {
+  width: 28px;
+  height: 3px;
+
+  border-radius: 2px;
+
+  background-color: #e8e2d5;
+}
+
+.slider__dot:hover {
+  background-color: var(--light-green-color);
+}
+
+.arrowl-link,
+.arrowr-link {
+  width: 25px;
+  height: 25px;
+}
+
+.arrowl-link {
+  text-align: right;
+}
+
+.arrowl-img {
+  margin-right: 15px;
+}
+
+.arrowr-img {
+  margin-left: 15px;
 }
