@@ -1,4 +1,4 @@
-.header{
+.header {
   margin-bottom: 26px;
 }
 
@@ -30,4 +30,45 @@
   display: block;
   margin-right: 17px;
   margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin-bottom: 58px;
+  }
+  .header-top {
+    height: 93px;
+
+    position: relative;
+  }
+
+  .header-top::after {
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 1px;
+
+    left: 0;
+    bottom: -5px;
+
+    background-color: #c4c4c4;
+  }
+
+  .header__logo {
+    padding-left: 32px;
+
+    font-size: 27px;
+    line-height: 1.26em;
+  }
+
+  .header__burger{
+    height: 89px;
+  }
+
+  .header__burger-img {
+    height: 100%;
+
+    margin-right: 30px;
+  }
 }
