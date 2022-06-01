@@ -1,4 +1,4 @@
-.order-call{
+.order-call {
   margin-bottom: 35px;
 }
 
@@ -14,7 +14,7 @@
   position: relative;
 }
 
-.order-call__inner::after{
+.order-call__inner::after {
   content: url(./../images/figura1.png);
   position: absolute;
 
@@ -22,7 +22,7 @@
   left: 0;
 }
 
-.order-call-box{
+.order-call-box {
   padding: 13px;
   border-radius: 7px;
   margin: 59px auto 19px;
@@ -32,23 +32,65 @@
   z-index: 10;
 }
 
-.order-call__title{
+.order-call__title {
   margin-bottom: 13px;
 
   text-transform: uppercase;
 }
 
-.order-call__text{
+.order-call__title span {
+  display: block;
+}
+
+.order-call__text {
   margin-bottom: 8px;
 
   font-size: 11px;
   line-height: 1.27em;
 }
 
-.order-call__btn{
+.order-call__btn {
   padding: 6px 43px;
   margin: 0 auto;
 
   font-size: 10px;
   line-height: 1.3em;
+}
+
+@media (min-width: 768px) {
+  .order-call {
+    margin-bottom: 57px;
+  }
+
+  .order-call__inner {
+    height: 165px;
+
+    background-image: url(./../images/order-call-bg2.jpg);
+  }
+
+  .order-call__inner::after {
+    content: url(./../images/figura2.png);
+  }
+
+  .order-call-box {
+    margin: 26px 0 25px 20px;
+  }
+
+  .order-call__title {
+    margin-bottom: 8px;
+
+    font-size: 18px;
+    line-height: 1.22em;
+  }
+
+  .order-call__title span {
+    display: inline;
+  }
+
+  .order-call__btn {
+    margin: 0;
+
+    font-size: 11px;
+    line-height: 1.27em;
+  }
 }
