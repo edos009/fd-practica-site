@@ -18,7 +18,7 @@ footer {
   color: var(--white-color);
 
   font-weight: 700;
-  display: 15px;
+  font-size: 15px;
   line-height: 1.2em;
   text-transform: uppercase;
 }
@@ -38,7 +38,7 @@ footer {
 }
 
 .footer__phone {
-  font-style: 15px;
+  font-size: 15px;
   line-height: 1.2em;
   text-transform: uppercase;
 }
@@ -57,7 +57,7 @@ footer {
   content: "";
   position: absolute;
 
-  left: 0;
+  left: 2px;
 
   background-repeat: no-repeat;
 }
@@ -78,6 +78,10 @@ footer {
   top: 4px;
 
   background-image: url(./../icons/footer-email.svg);
+}
+
+.footer__box {
+  display: none;
 }
 
 .footer__social {
@@ -105,4 +109,39 @@ footer {
   font-size: 11px;
   line-height: 1.27em;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer__social__hide,
+  .footer__copy__hide {
+    display: none;
+  }
+
+  .footer__box {
+    display: block;
+  }
+
+  .footer {
+    padding: 34px 0 25px;
+  }
+
+  .footer__list {
+    margin: 0;
+  }
+
+  .footer__copy {
+    margin-bottom: 28px;
+    font-size: 15px;
+    line-height: 1.26em;
+    text-align: left;
+  }
+
+  .footer__social {
+    justify-content: flex-start;
+    gap: 11px;
+  }
+
+  .footer__city {
+    margin: 15px auto 0;
+  }
 }
