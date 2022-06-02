@@ -80,3 +80,39 @@
   font-size: 10px;
   line-height: 1.2em;
 }
+
+@media (min-width: 768px) {
+  .benefits {
+    margin-bottom: 63px;
+  }
+
+  .benefits__title {
+    margin-bottom: 9px;
+
+    font-style: 25px;
+    line-height: 1.2em;
+  }
+
+  .benefits__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 19px;
+  }
+
+  .benefits__item{
+    margin-bottom: 0;
+
+    flex-basis: 245px;
+  }
+
+  .benefits__item:nth-child(2){
+    order: 3;
+  }
+  .benefits__item:nth-child(3){
+    order: 2;
+  }
+  .benefits__item:last-child{
+    order: 3;
+  }
+}
