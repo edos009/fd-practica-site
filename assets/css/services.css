@@ -1,4 +1,4 @@
-.services{
+.services {
   margin-bottom: 30px;
 }
 
@@ -95,4 +95,113 @@
   font-size: 11px;
   line-height: 1.2em;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .services{
+    margin-bottom: 44px;
+  }
+  
+  .services__title {
+    font-size: 25px;
+    line-height: 1.2em;
+    text-align: center;
+  }
+
+  .services__text{
+    margin-bottom: 39px;
+  }
+
+  .services__slider__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 38px;
+
+    padding: 0 46px;
+
+    position: relative;
+  }
+
+  .services__slider__item {
+    padding: 147px 0 16px;
+    margin: 0;
+  }
+
+  .services__slider1 {
+    display: block;
+    height: 255px;
+
+    padding: 122px 0 10px;
+
+    flex-basis: 171px;
+
+    background-image: linear-gradient(
+        180deg,
+        #414141 -49.24%,
+        rgba(65, 65, 65, 0) 120.35%
+      ),
+      linear-gradient(0deg, #65c466 0%, rgba(37, 137, 249, 0) 23.16%),
+      url(./../images/services__slider1.jpeg);
+  }
+
+  .services__slider2 {
+    height: 285px;
+    flex-basis: 190px;
+  }
+
+  .services__slider3 {
+    display: block;
+    height: 255px;
+
+    padding: 122px 0 10px;
+
+    flex-basis: 171px;
+
+    background-image: linear-gradient(
+        180deg,
+        #414141 -49.24%,
+        rgba(65, 65, 65, 0) 120.35%
+      ),
+      linear-gradient(0deg, #65c466 0%, rgba(37, 137, 249, 0) 23.16%),
+      url(./../images/services__slider3.jpeg);
+  }
+
+  .services__slider__item__title{
+    margin: 0 4px 8px 7px;
+
+    font-size: 16px;
+    line-height: 1.18em;
+  }
+
+  .services__slider__item__text{
+    margin-bottom: 38px;
+    margin-left: 7px;
+    margin-right: 4px;
+
+    font-size: 10px;
+    line-height: 1.2em;
+  }
+
+  .services__slider1 .services__slider__item__text{
+    margin-bottom: 12px;
+  }
+
+  .services__slider3 .services__slider__item__text{
+    margin-bottom: 32px;
+  }
+
+  .slider__dots{
+    margin-top: 40px;
+  }
+
+  .services__arrowl-link{
+    position: absolute;
+    transform: translate(0, 155px);
+  }
+
+  .services__arrowr-link{
+    position: absolute;
+    transform: translate(675px, 155px);
+  }
 }
