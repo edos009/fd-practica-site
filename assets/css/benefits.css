@@ -89,30 +89,51 @@
   .benefits__title {
     margin-bottom: 9px;
 
-    font-style: 25px;
+    font-size: 25px;
     line-height: 1.2em;
   }
 
-  .benefits__items{
+  .benefits__items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 19px;
   }
 
-  .benefits__item{
+  .benefits__item {
     margin-bottom: 0;
 
     flex-basis: 245px;
   }
 
-  .benefits__item:nth-child(2){
+  .benefits__item:nth-child(2) {
     order: 3;
   }
-  .benefits__item:nth-child(3){
+  .benefits__item:nth-child(3) {
     order: 2;
   }
-  .benefits__item:last-child{
+  .benefits__item:last-child {
     order: 3;
+  }
+}
+
+@media (min-width: 1024px) {
+  .benefits {
+    margin-bottom: 80px;
+  }
+
+  .benefits__text {
+    margin-bottom: 38px;
+  }
+
+  .benefits__item {
+    padding: 15px 9px 16px 9px;
+    margin-bottom: 0;
+    flex-basis: 187px;
+  }
+
+  .benefits__item__text {
+    max-width: 169px;
+    width: 100%;
   }
 }
