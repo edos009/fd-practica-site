@@ -94,3 +94,32 @@
     line-height: 1.27em;
   }
 }
+
+@media (min-width: 1024px) {
+  .order-call {
+    margin-bottom: 47px;
+  }
+
+  .order-call__inner {
+    height: 165px;
+
+    background-image: url(./../images/order-call-bg3.jpg);
+  }
+
+  .order-call-box {
+    max-width: 290px;
+    width: 100%;
+
+    margin: 24px 0 14px 28px;
+  }
+
+  .order-call-box {
+    padding: 17px 19px;
+  }
+
+  .order-call__btn {
+    padding: 7px 52px;
+    font-size: 11px;
+    line-height: 1.27em;
+  }
+}
