@@ -159,9 +159,31 @@
   .help__from__text {
     font-size: 9px;
     line-height: 1.28em;
-}
+  }
 
   .help__box__img {
     transform: translate(-40px, -40px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .help {
+    margin-bottom: 0;
+  }
+
+  .help__inner {
+    justify-content: center;
+  }
+
+  .help__item {
+    margin-bottom: 22px;
+  }
+
+  .help__box__img {
+    transform: translate(-20px, -60px);
+  }
+
+  .help__from__btn {
+    margin: 0 auto 17px;
   }
 }
