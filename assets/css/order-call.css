@@ -123,3 +123,40 @@
     line-height: 1.27em;
   }
 }
+
+@media (min-width: 1336px) {
+  .order-call__inner {
+    height: 200px;
+    background-image: url(./../images/order-call-bg3.jpg);
+  }
+
+  .order-call__inner::after {
+    content: url(./../images/figura3.png);
+  }
+
+  .order-call-box {
+    max-width: 309px;
+
+    padding: 21px 10px 21px 24px;
+  }
+
+  .order-call__title {
+    margin-bottom: 7px;
+
+    font-size: 20px;
+    line-height: 1.2em;
+  }
+
+  .order-call__text {
+    margin-bottom: 15px;
+
+    font-size: 13px;
+    line-height: 1.23em;
+  }
+
+  .order-call__btn {
+    padding: 8px 60px;
+    font-size: 13px;
+    line-height: 1.23em;
+  }
+}
