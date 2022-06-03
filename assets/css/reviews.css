@@ -148,3 +148,30 @@
     display: none;
   }
 }
+
+@media (min-width: 1024px) {
+  .reviews {
+    margin-bottom: 28px;
+  }
+
+  .reviews__inner {
+    justify-content: center;
+  }
+
+  .reviews__text {
+    margin-bottom: 42px;
+  }
+
+  .reviews__stars {
+    margin-bottom: 24px;
+  }
+
+  .reviews__item__text {
+    margin-bottom: 25px;
+  }
+
+  .slider__dot {
+    width: 40px;
+    height: 5px;
+}
+}
