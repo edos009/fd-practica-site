@@ -145,3 +145,31 @@ footer {
     margin: 15px auto 0;
   }
 }
+
+@media (min-width: 1024px) {
+  .footer__list {
+    transform: translateX(30px);
+  }
+
+  .footer__item:nth-child(5) {
+    order: 1;
+  }
+  .footer__item:nth-child(3) {
+    order: 2;
+  }
+
+  .footer__item:nth-child(4) {
+    order: 3;
+  }
+  .footer__item:nth-child(6) {
+    order: 4;
+  }
+
+  .footer__item {
+    margin-bottom: 22px;
+  }
+
+  .footer__city {
+    margin: 23px auto 0;
+  }
+}
