@@ -98,17 +98,17 @@
 }
 
 @media (min-width: 768px) {
-  .services{
+  .services {
     margin-bottom: 44px;
   }
-  
+
   .services__title {
     font-size: 25px;
     line-height: 1.2em;
     text-align: center;
   }
 
-  .services__text{
+  .services__text {
     margin-bottom: 39px;
   }
 
@@ -167,14 +167,14 @@
       url(./../images/services__slider3.jpeg);
   }
 
-  .services__slider__item__title{
+  .services__slider__item__title {
     margin: 0 4px 8px 7px;
 
     font-size: 16px;
     line-height: 1.18em;
   }
 
-  .services__slider__item__text{
+  .services__slider__item__text {
     margin-bottom: 38px;
     margin-left: 7px;
     margin-right: 4px;
@@ -183,25 +183,100 @@
     line-height: 1.2em;
   }
 
-  .services__slider1 .services__slider__item__text{
+  .services__slider1 .services__slider__item__text {
     margin-bottom: 12px;
   }
 
-  .services__slider3 .services__slider__item__text{
+  .services__slider3 .services__slider__item__text {
     margin-bottom: 32px;
   }
 
-  .slider__dots{
+  .slider__dots {
     margin-top: 40px;
   }
 
-  .services__arrowl-link{
+  .services__arrowl-link {
     position: absolute;
     transform: translate(0, 155px);
   }
 
-  .services__arrowr-link{
+  .services__arrowr-link {
     position: absolute;
     transform: translate(675px, 155px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .services {
+    margin-bottom: 11px;
+  }
+
+  .services__text {
+    margin: 0 auto 45px;
+  }
+
+  .services__slider__box {
+    justify-content: center;
+    gap: 49px;
+  }
+
+  .services__slider1,
+  .services__slider3 {
+    height: 339px;
+    padding: 163px 0 13px;
+    flex-basis: 228px;
+  }
+
+  .services__slider2 {
+    height: 380px;
+    flex-basis: 253px;
+
+    padding: 204px 0 21px;
+  }
+
+  .services__slider__item__title {
+    margin: 0 13px 6px 9px;
+    font-size: 21px;
+    line-height: 1.19em;
+  }
+
+  .services__slider__item__text {
+    margin: 0 13px 16px 9px;
+    font-size: 13px;
+    line-height: 1.23em;
+  }
+
+  .services__slider2 .services__slider__item__text {
+    margin-bottom: 52px;
+  }
+
+  .services__slider3 .services__slider__item__text {
+    margin-bottom: 52px;
+  }
+
+  .services__arrowl-link {
+    width: 33px;
+    height: 33px;
+    transform: translate(20px, 200px);
+  }
+
+  .services__arrowr-link {
+    width: 33px;
+    height: 33px;
+    transform: translate(885px, 200px);
+  }
+
+  .services__arrowl-img,
+  .services__arrowr-img {
+    width: 100%;
+  }
+
+  .slider__dots {
+    margin: 53px auto;
+  }
+
+  .slider__dot {
+    width: 48px;
+    height: 6px;
   }
 }
