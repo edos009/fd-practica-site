@@ -340,3 +340,86 @@
     height: 20px;
   }
 }
+
+@media (min-width: 1336px) {
+  .header__top {
+    height: 101px;
+
+    border-radius: 5px;
+    margin: 7px 0 10px;
+  }
+
+  .header__logo {
+    padding: 20px 0;
+    margin-left: 66px;
+
+    font-size: 32px;
+    line-height: 1.25em;
+  }
+
+  .phone {
+    padding-left: 18px;
+
+    font-size: 22px;
+    line-height: 1.27em;
+  }
+
+  .phone::after {
+    top: 8px;
+  }
+
+  .phone-text,
+  .header__call-order,
+  .header__authorization {
+    font-size: 14px;
+    line-height: 1.28em;
+  }
+
+  .phone-text {
+    margin-left: 55px;
+  }
+
+  .header__authorization {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .header__authorization::after {
+    right: 63px;
+  }
+
+  .menu_link {
+    padding: 10px 22px;
+    font-size: 18px;
+    line-height: 1.28em;
+  }
+
+  .menu_sublink {
+    font-size: 15px;
+    line-height: 1.2em;
+  }
+
+  .menu_subitem {
+    min-width: 325px;
+  }
+
+  .menu_subitem .menu_sublist {
+    left: 325px;
+  }
+
+  .menu_subitem .menu_subitem {
+    min-width: 420px;
+  }
+
+  .arrow-right::after {
+    height: 14px;
+    width: 9px;
+    top: 12px;
+    right: 13px;
+  }
+
+  .search-loupe {
+    width: 24px;
+    height: 24px;
+  }
+}
