@@ -240,5 +240,82 @@
     padding: 10px 25px;
     font-size: 11px;
     line-height: 1.27em;
+  }
 }
+
+@media (min-width: 1336px) {
+  .question {
+    margin-bottom: 32px;
+  }
+
+  .question__title {
+    flex-basis: 670px;
+
+    margin-bottom: 15px;
+
+    font-size: 35px;
+    line-height: 1.2em;
+  }
+
+  .question__text {
+    flex-basis: 573px;
+
+    margin-right: 95px;
+    margin-bottom: 44px;
+
+    font-size: 16px;
+    line-height: 1.25em;
+  }
+
+  .question__title::after {
+    width: 130px;
+    height: 130px;
+
+    top: 30px;
+    right: -23px;
+  }
+
+  .question__form {
+    flex-basis: 670px;
+  }
+
+  .question__form__input,
+  .question__form__textarea {
+    padding: 18px 20px;
+    margin-bottom: 16px;
+
+    font-size: 14px;
+    line-height: 1.28em;
+  }
+
+  .question__form__textarea {
+    min-height: 140px;
+  }
+
+  .question__form__checkbox__text {
+    flex-basis: 100%;
+    padding-left: 31px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 1.28em;
+  }
+
+  .question__form__checkbox__text::after {
+    width: 18px;
+    height: 18px;
+  }
+  .question__form__checkbox__text::before {
+    width: 12px;
+    height: 12px;
+  }
+
+  .question__form__btn {
+    padding: 13px 32px;
+    font-size: 14px;
+    line-height: 1.28em;
+  }
+
+  .question__img {
+    left: -40px;
+  }
 }
