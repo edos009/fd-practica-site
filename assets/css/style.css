@@ -110,6 +110,14 @@ a {
   font-weight: 200;
 }
 
+.btn:hover,
+.header__call-order:hover {
+  background-color: var(--white-color);
+  color: var(--light-green-color);
+
+  transition: all 0.3s ease;
+}
+
 .question__title span,
 .order-call__title span {
   display: block;
@@ -129,6 +137,8 @@ a {
   border-radius: 2px;
 
   background-color: #e8e2d5;
+
+  transition: all 0.3s ease;
 }
 
 .slider__dot:hover {
@@ -139,6 +149,10 @@ a {
 .arrowr-link {
   width: 25px;
   height: 25px;
+
+  cursor: pointer;
+
+  z-index: 55;
 }
 
 .arrowl-link {

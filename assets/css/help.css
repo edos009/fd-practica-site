@@ -115,7 +115,14 @@
 
 .help__from__text-link {
   color: var(--dark-grey-color);
+
+  transition: all 0.3s ease;
+
   text-decoration: underline;
+}
+
+.help__from__text-link:hover {
+  color: var(--light-green-color);
 }
 
 .help__box__img {

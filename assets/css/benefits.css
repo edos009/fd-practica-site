@@ -23,11 +23,20 @@
 
 .benefits__item {
   padding: 25px 13px 10px 10px;
+  border: 1px solid #c2c1c2;
   border-radius: 7px;
   margin-bottom: 19px;
-  box-shadow: 0px 0px 14px #dedede;
 
   background-color: var(--white-color);
+
+  transition: all .3s ease;
+
+  cursor: pointer;
+}
+
+.benefits__item:hover{
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 14px #dedede;
 }
 
 .benefits__item__title {

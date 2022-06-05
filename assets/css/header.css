@@ -338,6 +338,14 @@
   .search-loupe {
     width: 20px;
     height: 20px;
+
+    cursor: pointer;
+  }
+
+  .search-box .search-loupe:hover path{
+    fill: var(--light-green-color);
+
+    transition: all 0.2s ease;
   }
 }
 
