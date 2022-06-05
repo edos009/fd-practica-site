@@ -173,3 +173,75 @@ footer {
     margin: 23px auto 0;
   }
 }
+
+@media (min-width: 1336px) {
+  .footer {
+    padding: 49px 0 20px;
+  }
+
+  .footer__copy {
+    margin-bottom: 34px;
+
+    font-size: 19px;
+    line-height: 1.26em;
+  }
+
+  .footer__social__link {
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer__social {
+    gap: 17px;
+  }
+
+  .footer__list {
+    transform: translateX(50px);
+  }
+
+  .footer__link {
+    font-size: 18px;
+    line-height: 1.28em;
+  }
+
+  .footer__item {
+    margin-bottom: 15px;
+  }
+
+  .footer__contacts{
+    padding-left: 75px;
+  }
+
+  .footer__phone,
+  .footer__email {
+    padding-left: 32px;
+    margin-bottom: 12px;
+  }
+
+  .footer__phone {
+    font-size: 18px;
+    line-height: 1.28em;
+  }
+
+  .footer__phone::after {
+    width: 15px;
+    height: 15px;
+    top: 5px;
+  }
+
+  .footer__email {
+    font-size: 16px;
+    line-height: 1.25em;
+  }
+
+  .footer__email::after {
+    width: 16px;
+    height: 11px;
+  }
+
+  .footer__city {
+    margin: 67px auto 0;
+    font-size: 14px;
+    line-height: 1.28em;
+}
+}
