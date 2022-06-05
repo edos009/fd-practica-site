@@ -328,4 +328,11 @@
 
     top: 175px;
   }
+
+  .reviews__items::after {
+    left: -20px;
+  }
+  .reviews__items::before {
+    right: -20px;
+  }
 }
