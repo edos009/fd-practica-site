@@ -241,9 +241,9 @@
     max-width: var(--size-col);
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .container {
-    width: 980px;
+    width: 991px;
   }
   .col-lg-1 {
     --size-col: calc(var(--size) * 1);
@@ -306,9 +306,9 @@
     max-width: var(--size-col);
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1336px) {
   .container {
-    width: 1130px;
+    width: 1196px;
   }
   .col-xl-1 {
     --size-col: calc(var(--size) * 1);
