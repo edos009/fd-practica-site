@@ -166,3 +166,9 @@ a {
 .arrowr-img {
   margin-left: 15px;
 }
+
+.dotted__text__wrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
