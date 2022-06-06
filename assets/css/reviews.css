@@ -46,6 +46,11 @@
   margin-bottom: 15px;
 }
 
+.reviews__stars__link {
+  width: 13px;
+  height: 13px;
+}
+
 .reviews__item__text {
   margin-bottom: 12px;
 
