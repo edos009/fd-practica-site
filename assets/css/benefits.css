@@ -27,14 +27,16 @@
   border-radius: 7px;
   margin-bottom: 19px;
 
+  position: relative;
+
   background-color: var(--white-color);
 
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 
   cursor: pointer;
 }
 
-.benefits__item:hover{
+.benefits__item:hover {
   border: 1px solid transparent;
   box-shadow: 0px 0px 14px #dedede;
 }
@@ -46,9 +48,13 @@
   padding-left: 49px;
   margin-bottom: 19px;
 
-  position: relative;
-
   color: var(--grey-color);
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 
   font-weight: 200;
   font-style: italic;
@@ -62,8 +68,8 @@
 
   width: 70px;
   height: 70px;
-  left: -15px;
-  top: -20px;
+  left: -5px;
+  top: 0px;
 }
 
 .benefits-icon-1::after {
@@ -124,6 +130,10 @@
   .benefits__item:last-child {
     order: 3;
   }
+
+  .benefits__item__title::after {
+    top: 5px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -139,6 +149,10 @@
     padding: 15px 9px 16px 9px;
     margin-bottom: 0;
     flex-basis: 187px;
+  }
+
+  .benefits__item__title::after {
+    top: -5px;
   }
 
   .benefits__item__text {
@@ -187,8 +201,7 @@
     width: 99px;
     height: 99px;
 
-    left: -20px;
-    top: -27px;
+    left: -8px;
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,8 +258,7 @@
     width: 140px;
     height: 140px;
 
-    left: -30px;
-    top: -40px;
+    top: -10px;
   }
 
   .benefits__item__text {

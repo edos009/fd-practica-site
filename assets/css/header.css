@@ -132,6 +132,9 @@
   }
 
   .phone {
+    display: inline-block;
+    max-width: 213px;
+    width: 100%;
     padding-left: 15px;
 
     color: var(--white-color);
@@ -176,6 +179,11 @@
   }
 
   .header__call-order {
+    display: inline-block;
+
+    max-width: 180px;
+    width: 100%;
+
     padding: 13px 25px;
     border: 1.5px solid var(--white-color);
     border-radius: 4px;
@@ -190,6 +198,7 @@
   }
 
   .header__authorization {
+    display: flex;
     padding-top: 30px;
     margin-right: 25px;
     margin-left: 25px;
@@ -207,7 +216,7 @@
     height: 21px;
 
     top: 7px;
-    right: 55px;
+    right: 59px;
 
     background-image: url(./../icons/header-user.svg);
     background-repeat: no-repeat;
@@ -342,7 +351,7 @@
     cursor: pointer;
   }
 
-  .search-box .search-loupe:hover path{
+  .search-box .search-loupe:hover path {
     fill: var(--light-green-color);
 
     transition: all 0.2s ease;
@@ -366,6 +375,7 @@
   }
 
   .phone {
+    max-width: 253px;
     padding-left: 18px;
 
     font-size: 22px;
@@ -374,6 +384,10 @@
 
   .phone::after {
     top: 8px;
+  }
+
+  .header__call-order {
+    max-width: 202px;
   }
 
   .phone-text,
@@ -393,7 +407,7 @@
   }
 
   .header__authorization::after {
-    right: 63px;
+    right: 70px;
   }
 
   .menu_link {
@@ -453,6 +467,7 @@
   }
 
   .phone {
+    max-width: 360px;
     padding-left: 26px;
 
     font-size: 31px;
@@ -478,6 +493,8 @@
   }
 
   .header__call-order {
+    max-width: 300px;
+    
     padding: 21px 40px;
     border: 3px solid var(--white-color);
     border-radius: 7px;
@@ -494,7 +511,7 @@
     height: 36px;
 
     top: -7px;
-    right: 90px;
+    right: 95px;
   }
 
   .header__top::after {

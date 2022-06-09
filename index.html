@@ -11,7 +11,11 @@
       rel="stylesheet"
     />
     <title>Site Practice</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/icons/web.png">
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/icons/web.png"
+    />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
@@ -47,11 +51,17 @@
           <div class="header__top">
             <a class="header__logo" href="#">Классика права</a>
             <div class="header__call-box">
-              <a class="phone" href="tel:380000000000">+38 (000) 000-00-00</a>
+              <a class="phone dotted__text__wrap" href="tel:380000000000">+38 (000) 000-00-00</a>
               <p class="phone-text">Бесплатная консультация</p>
             </div>
-            <button class="header__call-order dotted__text__wrap">Заказать звонок</button>
-            <a class="header__authorization" href="#">Войти/регестрация</a>
+            <button class="header__call-order dotted__text__wrap">
+              Заказать звонок
+            </button>
+            <div class="header__authorization">
+              <a class="header__authorization__come" href="#">Войти</a>
+              <span class="header__authorization__slesh">/</span>
+              <a class="header__authorization__reg" href="#">регестрация</a>
+            </div>
           </div>
           <nav class="menu">
             <ul class="menu__list">
@@ -442,7 +452,7 @@
               для корпоративных клиентов так и для частных лиц. Профессионализм
               и ответственность ключевые преимущества нашей компании.
             </p>
-
+              <p class="question__online__text">30 оналайн</p>
             <picture class="question__box__img">
               <source
                 media="(min-width:1920px)"
@@ -491,7 +501,7 @@
                   конфидециальности
                 </label>
                 <button
-                  class="btn question__form__btn property-text"
+                  class="btn question__form__btn property-text dotted__text__wrap"
                   type="submit"
                 >
                   Отправить вопрос
@@ -512,7 +522,7 @@
               <p class="order-call__text col-9">
                 Сопровождение юридических лиц во всех областях права
               </p>
-              <button class="btn order-call__btn col-10">
+              <button class="btn order-call__btn col-10 dotted__text__wrap">
                 Заказать звонок
               </button>
             </div>
@@ -552,7 +562,7 @@
                     деле: сторон, третьих лиц, заявителей и иных
                     заинтересованных лиц.
                   </p>
-                  <a class="services__slider__item__link" href="#">
+                  <a class="services__slider__item__link dotted__text__wrap" href="#">
                     Подробнее
                   </a>
                 </article>
@@ -566,7 +576,7 @@
                     компаний.
                   </p>
                   <a
-                    class="services__slider__item__link col-5 com-md-1"
+                    class="services__slider__item__link dotted__text__wrap col-5 com-md-1"
                     href="#"
                   >
                     Подробнее
@@ -580,7 +590,7 @@
                     Проверка финансово-экономической деятельности организации,
                     проводимая аудитором.
                   </p>
-                  <a class="services__slider__item__link" href="#">
+                  <a class="services__slider__item__link dotted__text__wrap" href="#">
                     Подробнее
                   </a>
                 </article>
@@ -684,7 +694,7 @@
                 >Введите номер телефона
               </label>
               <input class="help__form__input" type="text" />
-              <button class="btn help__from__btn">Получить консультацию</button>
+              <button class="btn help__from__btn dotted__text__wrap">Получить консультацию</button>
               <p class="help__from__text col-10 col-md-12 col-lg-11 col-xxl-10">
                 Нажимая на кнопку, Вы даете согласие на обработку
                 <a class="help__from__text-link" href="#"

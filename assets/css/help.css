@@ -93,6 +93,8 @@
 }
 
 .help__from__btn {
+  max-width: 94%;
+
   padding: 8px 20px;
   margin: 0 auto 12px;
 
@@ -153,9 +155,15 @@
   }
 
   .help__form__label,
-  .help__form__label,
-  .help__from__btn {
+  .help__form__label {
     font-size: 13px;
+    line-height: 1.23em;
+  }
+
+  .help__from__btn {
+    max-width: 95%;
+
+    font-size: 12px;
     line-height: 1.23em;
   }
 
@@ -191,7 +199,12 @@
   }
 
   .help__from__btn {
+    max-width: 185px;
+    width: 100%;
+
     margin: 0 auto 17px;
+
+    font-size: 13px;
   }
 }
 
@@ -250,8 +263,7 @@
   }
 
   .help__from__btn {
-    max-width: 237px;
-    width: 100%;
+    max-width: 244px;
 
     padding: 12px 12px 9px;
     margin-bottom: 24px;
@@ -319,7 +331,7 @@
   }
 
   .help__from__btn {
-    max-width: 351px;
+    max-width: 356px;
 
     padding: 15px 20px 15px;
     margin-bottom: 48px;
